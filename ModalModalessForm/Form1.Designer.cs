@@ -55,6 +55,7 @@
             this.btmModal.TabIndex = 1;
             this.btmModal.Text = "모달창 띄우기";
             this.btmModal.UseVisualStyleBackColor = true;
+            this.btmModal.Click += new System.EventHandler(this.BtmModal_Click);
             // 
             // btnModaless
             // 
@@ -65,6 +66,7 @@
             this.btnModaless.TabIndex = 4;
             this.btnModaless.Text = "모달리스창 띄우기";
             this.btnModaless.UseVisualStyleBackColor = true;
+            this.btnModaless.Click += new System.EventHandler(this.BtnModaless_Click);
             // 
             // menuStrip1
             // 
@@ -89,8 +91,9 @@
             // 끝내기ToolStripMenuItem
             // 
             this.끝내기ToolStripMenuItem.Name = "끝내기ToolStripMenuItem";
-            this.끝내기ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.끝내기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.끝내기ToolStripMenuItem.Text = "끝내기";
+            this.끝내기ToolStripMenuItem.Click += new System.EventHandler(this.끝내기ToolStripMenuItem_Click);
             // 
             // 창띄우기ToolStripMenuItem
             // 
@@ -104,14 +107,16 @@
             // modalToolStripMenuItem
             // 
             this.modalToolStripMenuItem.Name = "modalToolStripMenuItem";
-            this.modalToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.modalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modalToolStripMenuItem.Text = "Modal";
+            this.modalToolStripMenuItem.Click += new System.EventHandler(this.ModalToolStripMenuItem_Click);
             // 
             // modalLToolStripMenuItem
             // 
             this.modalLToolStripMenuItem.Name = "modalLToolStripMenuItem";
-            this.modalLToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.modalLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modalLToolStripMenuItem.Text = "Modaless";
+            this.modalLToolStripMenuItem.Click += new System.EventHandler(this.ModalLToolStripMenuItem_Click);
             // 
             // 도움말ToolStripMenuItem
             // 
@@ -127,12 +132,14 @@
             this.이프로그램은ToolStripMenuItem.Name = "이프로그램은ToolStripMenuItem";
             this.이프로그램은ToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.이프로그램은ToolStripMenuItem.Text = "이 프로그램은..(Modal) ";
+            this.이프로그램은ToolStripMenuItem.Click += new System.EventHandler(this.이프로그램은ToolStripMenuItem_Click);
             // 
             // 이프로그램은ModalessToolStripMenuItem
             // 
             this.이프로그램은ModalessToolStripMenuItem.Name = "이프로그램은ModalessToolStripMenuItem";
             this.이프로그램은ModalessToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.이프로그램은ModalessToolStripMenuItem.Text = "이 프로그램은..(Modaless)";
+            this.이프로그램은ModalessToolStripMenuItem.Click += new System.EventHandler(this.이프로그램은ModalessToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
